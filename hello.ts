@@ -1,15 +1,7 @@
-function hello (name: string) {
-  console.log(`Hello, ${name}!`);
-}
+let myName = 'Jane';
 
-const firstName = 'Bob';
+const hello = (name: string) => {
+  return `Hello ${name}`;
+};
 
-hello(firstName);
-hello(firstName + ' marley');
-
-function concat (a: string, b: string) {
-  return a + b;
-}
-
-const wcs = concat('Wild', concat('Code', 'School'));
-console.log(wcs);
+console.log(hello(myName));
