@@ -9,6 +9,10 @@ const filterByTitle = (movies, searchedTitle) => {
 console.log("------------------");
 console.log("test", filterByTitle(data_1.recentMovies, 'test'));
 console.log("------------------");
+// console.log("test", filterByTitle('recentMovies', 'test'));
+// console.log("------------------");
+// console.log("number", filterByTitle(recentMovies, 123));
+console.log("------------------");
 console.log('The great Adventure', filterByTitle(data_1.recentMovies, 'The great Adventure'));
 console.log("------------------");
 console.log('the', filterByTitle(data_1.recentMovies, 'The'));
